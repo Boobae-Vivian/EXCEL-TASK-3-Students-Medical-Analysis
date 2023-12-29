@@ -35,6 +35,7 @@ PIVOT TABLE                                                                   |V
 :----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 ![](Average_BATHBC.PNG)                                                       |![](Visual_BATHBC.png)
 
+
 ### 2. Average Height and Weight for Both Male and Female Students, Rounded to Two Decimal Places
 
 To calculate the average height and weight for both males and females, drag the height and weight columns into the "Values" fields as they are the aggregate columns. Simultaneously, place the gender column into the "Row" field as it serves as the categorical column. By default, the pivot table aggregates values by sum. To modify this to average aggregation, click on the column headers and choose to summarize values by average.
@@ -43,6 +44,41 @@ This action will reaggregate the data and yield results for the average height a
 PIVOT TABLE                                                                    |VISUALIZATION
 :-----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 ![](Avg_HW.png)                                                                |![](Visual_HW.png)
+
+
+### 3. The Number of Students Across Different Blood Groups
+
+To ascertain the count of students across various blood groups, place the students column into the "Values" fields and the blood group into the "Row" field. Adjust the default aggregate value to "count." This will generate the number of students across different blood groups as follows:
+
+- Blood Group A = 38,092
+- Blood Group AB = 38,251
+- Blood Group B = 39,034
+- Blood Group O = 39,134
+
+PIVOT TABLE                                                                    |VISUALIZATION
+:-----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
+![](Blood_groups.PNG)                                                                |![](Visual_Bloodgroup.png)
+
+
+### 4. The Number of Students Who Smoke and Those Who Do Not Smoke
+
+To determine the count of students who smoke and those who do not smoke, place the students column into the Pivot "Values" field and the smoking column into the "Row" field. Adjust the default aggregation to the count function. The result for the number of students who smoke and those who do not smoke would be as follows:
+
+- Non-Smokers (NO) = 123,591
+- Smokers (YES) = 30,963
+
+PIVOT TABLE                                                                    |VISUALIZATION
+:-----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
+![](Smoke.PNG)                                                                |![](Visual_Smoke.png)
+
+
+
+
+
+
+
+
+
 
 
 
