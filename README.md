@@ -29,7 +29,14 @@ These visualization will enhance the interpretability of the data and facilitate
 
 To compute the average cholesterol, blood pressure, BMI, age, temperature and heart Rate for both genders, the following steps are involved: Start by creating a pivot table. Select all the data, navigate to the "Insert" tab on the Excel ribbon, click on "Pivot Table," and choose the table range, often auto-selected. Next, select the pivot table destination, either a new worksheet or an existing one, and click "OK." Once the pivot table is created, a field list will appear alongside it, containing four different fields.
 
-Now, drag the columns for age, BMI, temperature, heart rate, blood pressure, and cholesterol into the "Values" field for aggregation. Simultaneously, place the gender column into the "Row" field for categorization. By default, the pivot table aggregates values as a sum. However, since we seek average values, modify this by selecting each header, right-clicking, and opting to summarize values by average. This action will run the analysis, providing the average values for each specified column, categorized by gender.
+Now, drag the columns for age, BMI, temperature, heart rate, blood pressure, and cholesterol into the "Values" field for aggregation. Simultaneously, place the gender column into the "Row" field for categorization. By default, the pivot table aggregates values as a sum. However, since we seek average values, we would modify this by selecting each header, right-clicking, and opting to summarize values by average. This action will run the analysis, providing the average values for each specified column, categorized by gender as:
+|Gender|	Average  Cholesterol|	Average Blood Pressure|	Average Temperature|Average  BMI|	Average  Age|	Average Heart Rate|
+|------|------------------------|--------------------------|------------------------|--------------|----------------|----------------------|
+|Female|	184.5024461|	114.652513|	98.60142361|	23.35438898|	26.00739677|	79.57523225|
+|Male|	184.6019304|	114.5369762|	98.60033416|	23.32076665|	26.06128794|	79.42852706|
+
+
+
 
 PIVOT TABLE                                                                   |VISUALIZATION
 :----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
@@ -38,8 +45,15 @@ PIVOT TABLE                                                                   |V
 
 ### 2. Average Height and Weight for Both Male and Female Students, Rounded to Two Decimal Places
 
-To calculate the average height and weight for both males and females, drag the height and weight columns into the "Values" fields as they are the aggregate columns. Simultaneously, place the gender column into the "Row" field as it serves as the categorical column. By default, the pivot table aggregates values by sum. To modify this to average aggregation, click on the column headers and choose to summarize values by average.
-This action will reaggregate the data and yield results for the average height and weight for both males and females, rounded to two decimal places.
+To calculate the average height and weight for both males and females, drag the height and weight columns into the Pivot "Values" fields as they are the aggregate columns. Simultaneously, place the gender column into the "Row" field as it serves as the categorical column. By default, the pivot table aggregates values by sum. To modify this to average aggregation, click on the column headers and choose to summarize values by average.
+This action will reaggregate the data and yield results for the average height and weight for both males and females as:
+
+|Gender|	Average Height|	Average Weight|
+|------|----------------|---------------|
+|Female|	174.93|	69.99|
+|Male|	174.98|	69.96|
+
+
 
 PIVOT TABLE                                                                    |VISUALIZATION
 :-----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
@@ -82,17 +96,22 @@ PIVOT TABLE                                                                    |
 :-----------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:
 ![](Diabetes.PNG)                                                                |![](Visual_Diabetes.png)
 
+### 6. Create Visual Representations, Such As Charts Or Graphs, For Each Objective To Effectively Communicate The Insights Derived From The Pivot Tables
+
+The outlined objectives were addressed through diverse visualizations, all successfully accomplished by following a straightforward process. To achieve this, simply select any cell within the specific pivot table where calculations are made for the visualization. After selecting the cell, proceed to the "PivotTable Analyze" tab, click on "PivotChart," and choose the preferred chart type suitable for the data visualization. Confirm the selection by clicking "OK."
+Upon completion, the chosen chart will emerge, presenting a graphical representation of the specific pivot table from the initially selected cell. It is recommended to adhere to design principles for effective data visualizations. This involves simplifying visuals by eliminating unnecessary elements like gridlines and superfluous labels, ensuring clarity and focus in conveying the intended insights.
+
 ## RECOMMENDATION
 
 - Implement health education programs focusing on lifestyle factors such as smoking habits and BMI, aiming to raise awareness and promote healthier choices among students.
-- Particularly for students with diabetes, individualized health plans could contribute to better management and support for those with specific health conditions.
+- Individualized health plans could contribute to better management and support for those with specific health conditions.
 - Launch awareness campaigns regarding blood groups, emphasizing the importance of knowing one's blood type for emergency situations. This can contribute to a better-prepared student community.
 - Encourage and facilitate regular health check-ups for students, considering the prevalence of specific health indicators. Early detection and intervention can significantly impact long-term health outcomes.
 - Integrate the findings into broader student well-being initiatives, fostering a holistic approach to health that encompasses physical, mental, and lifestyle aspects.
 
 ## CONCLUSION
 
-In conclusion, the analysis of the medical student dataset has provided valuable insights into the health characteristics of the student population. The average values for key health metrics, blood group distribution, smoking habits, and diabetes prevalence have been elucidated through the creation of Pivot Tables. These insights serve as a foundation for informed decision-making and targeted interventions to enhance student well-being.
+In conclusion, the analysis of the medical student dataset has provided valuable insights into the health characteristics of the student population. The average values for key health metrics, blood group distribution, smoking habits, and diabetes prevalence have been made clear through the creation of Pivot Tables. These insights serve as a foundation for informed decision-making and targeted interventions to enhance student well-being.
 
 Understanding the prevalence of specific health indicators among students allows for the development of proactive measures to address potential health risks and promote healthier lifestyles. By leveraging these findings, educational institutions can take steps to create a health-conscious environment that supports the diverse needs of the student community. This project exemplifies the power of data-driven decision-making in fostering a healthier and more informed student population.
 
